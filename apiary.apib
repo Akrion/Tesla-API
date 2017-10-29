@@ -1,8 +1,8 @@
 FORMAT: 1A
 HOST: https://owner-api.teslamotors.com
 
-# Tesla Model S JSON API
-This is unofficial documentation of the Tesla Model S JSON API used by the iOS and Android apps. It features functionality to monitor and control the Model S remotely.
+# Tesla Owner JSON API
+This is unofficial documentation of the Tesla Owners JSON API used by the iOS and Android apps. It features functionality to monitor and control the Model S remotely.
 
 # Group Authentication
 
@@ -404,12 +404,13 @@ Set the charge limit to a custom percentage.
 
 + Attributes
 
-    + percent: (number) - The desired percent value
+    + percent: 70 (number) - The desired percent value
 
 + Request
     + Headers
 
             Authorization: Bearer {access_token}
+            ContentType: application/json
 
 + Parameters
 
